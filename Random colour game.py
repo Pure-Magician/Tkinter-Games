@@ -8,7 +8,7 @@ import random
 
 # list of possible colour.
 colours = ['Red', 'Blue', 'Green', 'Pink', 'Black',
-           'Yellow', 'Orange', 'White', 'Purple', 'Brown']
+           'Yellow', 'purple', 'White', 'Purple', 'Brown']
 score = 0
 
 # the game time left, initially 30 seconds.
@@ -17,7 +17,7 @@ timeleft = 30
 
 # function that will start the game.
 def startGame(event):
-    if timeleft == 30:
+    if timeleft == 45:
         # start the countdown timer.
         countdown()
 
@@ -94,7 +94,7 @@ instructions = tkinter.Label(root, text="Type in the colour"
 instructions.pack()
 
 # add a score label
-scoreLabel = tkinter.Label(root, text="Press enter to start",
+scoreLabel = tkinter.Label(root,
                            font=('Helvetica', 12))
 scoreLabel.pack()
 
