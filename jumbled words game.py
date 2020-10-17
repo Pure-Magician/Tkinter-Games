@@ -27,7 +27,7 @@ answers = [
 #Jumbbled words
 words = [
 "nptohy",
-"ajav",
+"ajva",
 "wfsit",
 "ktloni",
 "dniai",
@@ -58,7 +58,7 @@ def checkans():
     global words, answers, num
     var = e1.get()
     if var == answers[num]:
-        messagebox.showinfo("Success","This is a correct answer")
+        messagebox.showinfo("Success","you are currect")
         reset()
     else:
         messagebox.showerror("Error" ,"This is not correct")
